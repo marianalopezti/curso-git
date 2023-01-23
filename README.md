@@ -4,16 +4,13 @@ Este es el primer desafío del curso de git.
 
 ## Consigna
 
-En esta tarde de tu primer día laboral, te proponemos subir todos los cambios que
-hayas hecho durante el día (para la práctica pueden ser crear un archivo o borrar el
-README).
-Haz un nuevo commit a tu repositorio. Es importante llevar un registro de los
-commits. Recuerda que éstos son la unidad de trabajo en Git.
-Para cerrar el día, cada desarrollador/a debe presentar el log actual del proyecto, con los
-identificadores de cada commit. Haz un log de todos los commit.
+En esta mañana de tu segundo día laboral debes continuar con el proyecto que
+empezaste ayer. Si ejecutas git init estarás creando un nuevo proyecto desde cero, que
+es justamente lo que queremos evitar.
+Clona en otra carpeta el repositorio que empezaste, realiza algunos cambios y haz un commit.
 
 ```bash
-git init
+git clone <url del git>
 ```
 
 ## Otros comandos
@@ -23,7 +20,7 @@ git status
 
 git add .
 
-git commit -m "Lunes a la mañana"
+git commit -m "Martes a la mañana"
 
 git push
 
