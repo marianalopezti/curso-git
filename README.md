@@ -11,8 +11,7 @@ El primer paso es detectar el commit. Usa Git Log para buscar el commit en el qu
 esa función.
 
 ```bash
-git switch
-git merge <rama>
+git log
 ```
 
 ## Otros comandos
