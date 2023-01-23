@@ -13,7 +13,8 @@ Será un trabajo muy simple de hacer pero debes hacerlo ya y no tienes tiempo de
 commit ¿Cómo podrías pausar el trabajo en el commit actual para dedicarte a trabajar en master?
 
 ```bash
-git stash
+git switch
+git merge <rama>
 ```
 
 ## Otros comandos
