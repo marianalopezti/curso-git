@@ -4,13 +4,11 @@ Este es el primer desafío del curso de git.
 
 ## Consigna
 
-Como te anticipamos antes, es parte de tu trabajo el resolver incidencias. ¡Acaba de
-ocurrir una incidencia! Te encuentras trabajando en el repositorio website en el
-branch custom-navbar. Debes pausar tu trabajo en el commit actual y borrar el
-archivo status.js del branch master de este repositorio. 
-
-Será un trabajo muy simple de hacer pero debes hacerlo ya y no tienes tiempo de completar el
-commit ¿Cómo podrías pausar el trabajo en el commit actual para dedicarte a trabajar en master?
+En este caso, luego de pruebas, análisis y estrés, el equipo logró detectar que la función getAllAccounts()
+es la que está dando error. Esa función es el punto conflictivo. Como no hay tiempo para corregirla,
+vamos a usar Git para revertir el commit en el que se subió esa función.
+El primer paso es detectar el commit. Usa Git Log para buscar el commit en el que figure la llamada a
+esa función.
 
 ```bash
 git switch
