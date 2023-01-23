@@ -20,7 +20,7 @@ git status
 
 git add .
 
-git commit -m "Miercoles a la mañana"
+git commit -m "Martes a la mañana"
 
 git push
 
